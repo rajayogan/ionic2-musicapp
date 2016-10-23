@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-fab center middle>
+    <button color="danger" ion-fab="" class="fab fab-md fab-md-danger fab-close-active">
+      <ion-icon class="fab-close-icon icon-md ion-md-close" name="close" role="img" aria-label="close"></ion-icon>
+      <span class="button-inner">
+        <ion-icon name="menu" role="img" class="icon-md ion-android-menu" aria-label="share"></ion-icon>
+        </span>
+        <div class="button-effect" style="transform: translate3d(-14px, -16px, 0px) scale(1); height: 102px; width: 102px; opacity: 0; transition: transform 301ms, opacity 211ms 90ms;">
+          
+        </div>
+        </button>
+        <ion-fab-list side="top">
+      <button color="primary" ion-fab="" class="fab fab-ios fab-ios-dark fab-in-list" (click)="filechooser()"><ion-icon class="fab-close-icon icon-ios ion-ios-close" name="close" role="img" aria-label="close"></ion-icon><span class="button-inner"><ion-icon name="open" role="img" class="icon-ios ion-android-open" aria-label="logo vimeo"></ion-icon></span><div class="button-effect"></div></button>
+    </ion-fab-list>
+    <ion-fab-list side="bottom">
+      <button color="secondary" ion-fab="" class="fab fab-ios fab-ios-primary fab-in-list" (click)="audiostop()"><ion-icon class="fab-close-icon icon-ios ion-ios-close" name="close" role="img" aria-label="close"></ion-icon><span class="button-inner"><ion-icon name="stop" role="img" class="icon-ios ion-stop" aria-label="logo facebook"></ion-icon></span><div class="button-effect"></div></button>
+    </ion-fab-list>
+    <ion-fab-list side="left">
+      <button color="light" ion-fab="" class="fab fab-ios fab-ios-light fab-in-list" (click)="audiopause()"><ion-icon class="fab-close-icon icon-ios ion-ios-close" name="close" role="img" aria-label="close"></ion-icon><span class="button-inner"><ion-icon name="pause" role="img" class="icon-ios ion-ios-pause" aria-label="logo googleplus"></ion-icon></span><div class="button-effect"></div></button>
+    </ion-fab-list>
+    <ion-fab-list side="right">
+      <button color="dark" ion-fab="" class="fab fab-ios fab-ios-secondary fab-in-list" (click)="playaudio()"><ion-icon class="fab-close-icon icon-ios ion-ios-close" name="close" role="img" aria-label="close"></ion-icon><span class="button-inner"><ion-icon name="play" role="img" class="icon-ios ion-ios-play" aria-label="logo twitter"></ion-icon></span><div class="button-effect"></div></button>
+    </ion-fab-list>
+    </ion-fab>
+</ion-content>
